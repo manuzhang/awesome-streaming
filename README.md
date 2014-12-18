@@ -14,7 +14,9 @@ a curated list of streaming frameworks
 * [tigon](https://github.com/caskdata/tigon)
 * [coast](https://github.com/bkirwi/coast)
 * [nsq](https://github.com/bitly/nsq)
-
+* [akka](https://github.com/akka/akka)
+* [hailstorm](https://github.com/hailstorm-hs/hailstorm)
+* [mupd8](https://github.com/walmartlabs/mupd8)
 
 ### Data pipeline
 
