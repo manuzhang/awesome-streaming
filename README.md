@@ -12,6 +12,8 @@ a curated list of streaming frameworks
 * [gearpump](https://github.com/intel-hadoop/gearpump)
 * [millwheel](http://research.google.com/pubs/pub41378.html)
 * [tigon](https://github.com/caskdata/tigon)
+* [coast](https://github.com/bkirwi/coast)
+
 
 ### Data pipeline
 
@@ -24,3 +26,8 @@ a curated list of streaming frameworks
 ### Machine Learning 
 
 * [samoa](https://github.com/yahoo/samoa)
+
+
+### Protocol
+
+* [aeron](https://github.com/real-logic/Aeron)
