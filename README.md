@@ -13,6 +13,7 @@ a curated list of streaming frameworks
 * [millwheel](http://research.google.com/pubs/pub41378.html)
 * [tigon](https://github.com/caskdata/tigon)
 * [coast](https://github.com/bkirwi/coast)
+* [nsq](https://github.com/bitly/nsq)
 
 
 ### Data pipeline
