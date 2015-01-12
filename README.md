@@ -17,6 +17,7 @@ a curated list of streaming frameworks
 * [akka](https://github.com/akka/akka)
 * [hailstorm](https://github.com/hailstorm-hs/hailstorm)
 * [mupd8](https://github.com/walmartlabs/mupd8)
+* [ASAP](https://github.com/ottogroup/ASAP)
 
 ### Data pipeline
 
@@ -26,10 +27,10 @@ a curated list of streaming frameworks
 * [camus](https://github.com/linkedin/camus)
 * [databus](https://github.com/linkedin/databus)
 
-### Machine Learning 
+### Online Machine Learning 
 
 * [samoa](https://github.com/yahoo/samoa)
-
+* [jubatus](http://jubat.us/en/)
 
 ### Protocol
 
