@@ -26,6 +26,7 @@ a curated list of streaming frameworks
 * [suro](https://github.com/Netflix/suro)
 * [camus](https://github.com/linkedin/camus)
 * [databus](https://github.com/linkedin/databus)
+* [metaq](https://github.com/killme2008/Metamorphosis)
 
 ### Online Machine Learning 
 
@@ -35,3 +36,7 @@ a curated list of streaming frameworks
 ### Protocol
 
 * [aeron](https://github.com/real-logic/Aeron)
+
+### tool
+
+* [StreamFlow](https://github.com/lmco/streamflow)
