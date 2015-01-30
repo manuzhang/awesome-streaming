@@ -33,6 +33,10 @@ a curated list of streaming frameworks
 * [samoa](https://github.com/yahoo/samoa)
 * [jubatus](http://jubat.us/en/)
 
+### Data analysis
+
+* [StormCV](https://github.com/sensorstorm/StormCV)
+
 ### Protocol
 
 * [aeron](https://github.com/real-logic/Aeron)
