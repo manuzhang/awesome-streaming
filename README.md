@@ -44,3 +44,4 @@ a curated list of streaming frameworks
 ### tool
 
 * [StreamFlow](https://github.com/lmco/streamflow)
+* [samza-luwak](https://github.com/romseygeek/samza-luwak)
