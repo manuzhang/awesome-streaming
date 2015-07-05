@@ -6,7 +6,7 @@ everything about streaming.
 
 * [flink-streaming](http://ci.apache.org/projects/flink/flink-docs-release-0.9/apis/streaming_guide.html) [Java] system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
 * [gearpump](https://github.com/intel-hadoop/gearpump) [Scala] lightweight real-time distributed streaming engine built on Akka.
-* [heron](https://blog.twitter.com/2015/flying-faster-with-twitter-heron) a real-time analytics platform that is fully API-compatible with Storm
+* [heron](https://blog.twitter.com/2015/flying-faster-with-twitter-heron) Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter.
 * [mantis](http://www.slideshare.net/g9yuayon/qcon-talk-on-netflix-mantis-a-stream-processing-system) Netflix's event stream processing system.
 * [millwheel](http://research.google.com/pubs/pub41378.html) framework for building low-latency data-processing applications that is widely used at Google.
 * [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] mapReduce-style framework for processing fast/streaming data.
