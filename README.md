@@ -42,9 +42,6 @@ everything about streaming.
 
 * [StormCV](https://github.com/sensorstorm/StormCV) [Java] enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
 
-### Message transport
-
-
 ### Toolkit
 
 * [akka](http://akka.io/) [Scala] toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
