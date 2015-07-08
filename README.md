@@ -38,6 +38,10 @@ everything about streaming.
 * [jubatus](http://jubat.us/en/) [C++] distributed processing framework and streaming machine learning library.
 * [Apache Samoa](https://github.com/yahoo/samoa) [Java] distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms
 
+### Stream SQL
+
+* [pipelinedb](https://github.com/pipelinedb/pipelinedb) [C] An open-source relational database that runs SQL queries continuously on streams, incrementally storing results in tables.
+
 ### Data analysis
 
 * [StormCV](https://github.com/sensorstorm/StormCV) [Java] enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
@@ -47,7 +51,7 @@ everything about streaming.
 * [akka](http://akka.io/) [Scala] toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
 * [aeron](https://github.com/real-logic/Aeron) [Java/C++] efficient reliable unicast and multicast message transport.
 * [StreamFlow](https://github.com/lmco/streamflow) [Java] stream processing tool designed to help build and monitor processing workflows.
-* [samza-luwak](https://github.com/romseygeek/samza-luwak)[Java] uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
+* [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 * [Turbine](https://github.com/Netflix/Turbine) [Java] tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream
 
 ### Experimental
