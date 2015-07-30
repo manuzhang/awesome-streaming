@@ -37,10 +37,12 @@ everything about streaming.
 
 * [jubatus](http://jubat.us/en/) [C++] distributed processing framework and streaming machine learning library.
 * [Apache Samoa](https://github.com/yahoo/samoa) [Java] distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms
+* [trident-ml](https://github.com/pmerienne/trident-ml) [Java] realtime online machine learning library based on Trident.
 
 ### Stream SQL
 
 * [pipelinedb](https://github.com/pipelinedb/pipelinedb) [C] An open-source relational database that runs SQL queries continuously on streams, incrementally storing results in tables.
+* [squall](https://github.com/epfldata/squall) [Java] Squall executes SQL queries on top of Storm for doing online processing.
 
 ### Data analysis
 
