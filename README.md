@@ -51,6 +51,7 @@ everything about streaming.
 ### Toolkit
 
 * [akka](http://akka.io/) [Scala] toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
+* [pulsar](http://quantmind.github.io/pulsar/index.html#) [Python] Actor based event driven concurrent framework for Python.
 * [aeron](https://github.com/real-logic/Aeron) [Java/C++] efficient reliable unicast and multicast message transport.
 * [StreamFlow](https://github.com/lmco/streamflow) [Java] stream processing tool designed to help build and monitor processing workflows.
 * [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
