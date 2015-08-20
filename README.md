@@ -10,12 +10,13 @@ everything about streaming.
 * [mantis](http://www.slideshare.net/g9yuayon/qcon-talk-on-netflix-mantis-a-stream-processing-system) Netflix's event stream processing system.
 * [millwheel](http://research.google.com/pubs/pub41378.html) framework for building low-latency data-processing applications that is widely used at Google.
 * [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] mapReduce-style framework for processing fast/streaming data.
+* [pulsar](http://gopulsar.io/) [Java] an open-source, real-time analytics platform and stream processing framework.
 * [s4](http://incubator.apache.org/s4/) [Java] general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
 * [Apache Samza](http://samza.apache.org/) [Scala/Java] distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management).
 * [spark-streaming](https://spark.apache.org/streaming/) [Scala] makes it easy to build scalable fault-tolerant streaming applications.
+* [SPQR](https://github.com/ottogroup/SPQR) [Java] dynamic framework for processing high volumn data streams through pipelines.
 * [Apache Storm](https://storm.apache.org/) [Clojure/Java] distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
 * [tigon](https://github.com/caskdata/tigon) [C++/Java] high throughput real-time streaming processing framework built on Hadoop and HBase.
-* [SPQR](https://github.com/ottogroup/SPQR) [Java] dynamic framework for processing high volumn data streams through pipelines.
 
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
