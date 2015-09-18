@@ -18,6 +18,10 @@ everything about streaming.
 * [Apache Storm](https://storm.apache.org/) [Clojure/Java] distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
 * [tigon](https://github.com/caskdata/tigon) [C++/Java] high throughput real-time streaming processing framework built on Hadoop and HBase.
 
+### Reactive Streams
+* [akka-streams](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0/scala/stream-cookbook.html) [scala]
+* [monifu](https://github.com/monifu/monifu) [scala] high-performance Scala / Scala.js library for composing asynchronous and event-based programs 
+
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
 
