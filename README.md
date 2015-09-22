@@ -4,6 +4,7 @@ everything about streaming.
 
 ### Streaming Engine
 
+* [Apache Apex](https://github.com/apache/incubator-apex-core) [Java] unified platform for big data stream and batch processing.
 * [flink-streaming](http://ci.apache.org/projects/flink/flink-docs-release-0.9/apis/streaming_guide.html) [Java] system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
 * [gearpump](https://github.com/intel-hadoop/gearpump) [Scala] lightweight real-time distributed streaming engine built on Akka.
 * [heron](https://blog.twitter.com/2015/flying-faster-with-twitter-heron) Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter.
