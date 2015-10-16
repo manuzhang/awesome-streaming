@@ -49,6 +49,7 @@ everything about streaming.
 
 * [pipelinedb](https://github.com/pipelinedb/pipelinedb) [C] An open-source relational database that runs SQL queries continuously on streams, incrementally storing results in tables.
 * [squall](https://github.com/epfldata/squall) [Java] Squall executes SQL queries on top of Storm for doing online processing.
+* [StreamCQL](https://github.com/HuaweiBigData/StreamCQL) [Java] Continuous Query Language on RealTime Computation System.
 
 ### Data analysis
 
