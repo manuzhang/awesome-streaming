@@ -39,6 +39,10 @@ everything about streaming.
 * [flume](https://github.com/apache/flume) [Java] distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 * [suro](https://github.com/Netflix/suro) [Java] data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data.
 
+### Data Mining 
+
+* [streamDM](https://github.com/huawei-noah/streamDM) [Scala] mining Big Data streams using Spark Streaming from Huawei.
+
 ### Online Machine Learning 
 
 * [jubatus](http://jubat.us/en/) [C++] distributed processing framework and streaming machine learning library.
