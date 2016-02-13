@@ -4,6 +4,17 @@
 
 A curated list of awesome streaming (stream processing) frameworks, applications, readings and other resources. Inspired by [other awesome projects](https://github.com/sindresorhus/awesome). 
 
+## Table of Contents
+
+- [Streaming Engine](#streaming-engine)
+- [Reactive Streams](#reactive-streams)
+- [DSL](#dsl)
+- [Data Pipeline](#data-pipeline)
+- [Online Machine Learning](#online-machine-learning)
+- [Stream SQL](#stream-sql)
+- [Toolkit](#toolkit)
+- [Readings](#readings)
+
 ### Streaming Engine
 
 * [Apache Apex](https://github.com/apache/incubator-apex-core) [Java] unified platform for big data stream and batch processing.
@@ -20,6 +31,7 @@ A curated list of awesome streaming (stream processing) frameworks, applications
 * [SPQR](https://github.com/ottogroup/SPQR) [Java] dynamic framework for processing high volumn data streams through pipelines.
 * [Apache Storm](https://storm.apache.org/) [Clojure/Java] distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
 * [tigon](https://github.com/caskdata/tigon) [C++/Java] high throughput real-time streaming processing framework built on Hadoop and HBase.
+* [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] distributed stream processing with exactly-once semantics based on Storm.
 
 ### Reactive Streams
 * [akka-streams](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0/scala/stream-cookbook.html) [scala]
@@ -27,39 +39,31 @@ A curated list of awesome streaming (stream processing) frameworks, applications
 
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
+* [coast](https://github.com/bkirwi/coast) [Scala] a DSL that builds DAGs on top of Samza and provides exactly-once semantics.
 
-### Message queue
+### Data Pipeline
 
 * [Apache Kafka](https://github.com/apache/kafka) [Scala/Java] distributed, partitioned, replicated commit log service, which provides the functionality of a messaging system, but with a unique design.
 * [metaq](https://github.com/killme2008/Metamorphosis) [Java] Taobao's high available, high performance distributed messaging system
 * [nsq](https://github.com/bitly/nsq) [Go] realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
-
-### Data pipeline
-
 * [camus](https://github.com/linkedin/camus) [Java] Linkedin's Kafka -> HDFS pipeline.
 * [databus](https://github.com/linkedin/databus) [Java] Linkedin's source-agnostic distributed change data capture system.
 * [flume](https://github.com/apache/flume) [Java] distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 * [suro](https://github.com/Netflix/suro) [Java] data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data.
 
-### Data Mining 
-
-* [streamDM](https://github.com/huawei-noah/streamDM) [Scala] mining Big Data streams using Spark Streaming from Huawei.
-
 ### Online Machine Learning 
 
+* [streamDM](https://github.com/huawei-noah/streamDM) [Scala] mining Big Data streams using Spark Streaming from Huawei.
 * [jubatus](http://jubat.us/en/) [C++] distributed processing framework and streaming machine learning library.
 * [Apache Samoa](https://github.com/yahoo/samoa) [Java] distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms
 * [trident-ml](https://github.com/pmerienne/trident-ml) [Java] realtime online machine learning library based on Trident.
+* [StormCV](https://github.com/sensorstorm/StormCV) [Java] enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
 
 ### Stream SQL
 
 * [pipelinedb](https://github.com/pipelinedb/pipelinedb) [C] An open-source relational database that runs SQL queries continuously on streams, incrementally storing results in tables.
 * [squall](https://github.com/epfldata/squall) [Java] Squall executes SQL queries on top of Storm for doing online processing.
 * [StreamCQL](https://github.com/HuaweiBigData/StreamCQL) [Java] Continuous Query Language on RealTime Computation System.
-
-### Data analysis
-
-* [StormCV](https://github.com/sensorstorm/StormCV) [Java] enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
 
 ### Toolkit
 
@@ -70,11 +74,19 @@ A curated list of awesome streaming (stream processing) frameworks, applications
 * [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 * [Turbine](https://github.com/Netflix/Turbine) [Java] tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream
 
-### Experimental
-* [coast](https://github.com/bkirwi/coast) [Scala] a DSL that builds DAGs on top of Samza and provides exactly-once semantics.
-* [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] distributed stream processing with exactly-once semantics based on Storm.
+### Readings
 
-### Streaming Algorithms and their applications 
+#### Blogs
+
+* [Confluent blog](http://blog.confluent.io/)
+* [Ingest Tips](http://ingest.tips/)
+
+#### Articles
+
+1. [In-Stream Big Data Processing](https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/)
+2. [The world beyond batch: Streaming 101](http://radar.oreilly.com/2015/08/the-world-beyond-batch-streaming-101.html) by Tyler Akidau. 
+
+#### Streaming Algorithms and their applications 
 
 from [Real Time Analytics: Algorithms and Systems (VLDB 2015)](http://www.vldb.org/pvldb/vol8/p2040-Kejariwal.pdf)
 
@@ -98,16 +110,6 @@ Graph analysis | Extract unweighted and weighted matching, vertex cover, indepen
 Basic Counting Estimate | `m'` of the number `m` of 1-bits in the sliding window (of size `n`) such that `|m'  − m| ≤ em` | Popularity Analysis
 Significant One Counting | Estimate `m'` of the number `m` of 1-bits in the sliding window (of size `n`) such that if `m ≥ θn`, then `|m' − m| ≤ em` | Traffic accounting
 
-### Blogs
-
-* [Confluent blog](http://blog.confluent.io/)
-* [Ingest Tips](http://ingest.tips/)
-
-### Readings
-
-1. https://github.com/manuzhang/ds-readings#stream-processing
-2. [In-Stream Big Data Processing](https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/)
-3. [The world beyond batch: Streaming 101](http://radar.oreilly.com/2015/08/the-world-beyond-batch-streaming-101.html) by Tyler Akidau. 
 
 ## License 
 
