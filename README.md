@@ -1,6 +1,8 @@
-## awesome-streaming
+## Awesome Streaming
 
-everything about streaming.
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+A curated list of awesome streaming (stream processing) frameworks, applications, readings and other resources. Inspired by [other awesome projects](https://github.com/sindresorhus/awesome). 
 
 ### Streaming Engine
 
@@ -107,3 +109,8 @@ Significant One Counting | Estimate `m'` of the number `m` of 1-bits in the slid
 2. [In-Stream Big Data Processing](https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/)
 3. [The world beyond batch: Streaming 101](http://radar.oreilly.com/2015/08/the-world-beyond-batch-streaming-101.html) by Tyler Akidau. 
 
+## License 
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) 
+
+Licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
