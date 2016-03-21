@@ -7,6 +7,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ## Table of Contents
 
 - [Streaming Engine](#streaming-engine)
+- [IoT](#iot)
 - [Reactive Streams](#reactive-streams)
 - [DSL](#dsl)
 - [Data Pipeline](#data-pipeline)
@@ -34,6 +35,11 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [tigon](https://github.com/caskdata/tigon) [C++/Java] - high throughput real-time streaming processing framework built on Hadoop and HBase.
 * [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] - distributed stream processing with exactly-once semantics based on Storm.
 
+### IoT
+
+* [sensorbee](http://sensorbee.io/) [Go] - lightweight stream processing engine for IoT.
+* [quarks](http://quarks-edge.github.io/) [Java] - a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM.
+
 ### Reactive Streams
 * [akka-streams](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0/scala/stream-cookbook.html) [scala] - an implementation of [Reactive Streams](http://www.reactive-streams.org/) in Akka.
 * [monifu](https://github.com/monifu/monifu) [scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
@@ -41,6 +47,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] - library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
 * [coast](https://github.com/bkirwi/coast) [Scala] - a DSL that builds DAGs on top of Samza and provides exactly-once semantics.
+* [Apache Beam](https://github.com/apache/incubator-beam) [Java] - unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs), open sourced by Google.
 
 ### Data Pipeline
 
