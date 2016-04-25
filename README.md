@@ -23,7 +23,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [flink-streaming](http://ci.apache.org/projects/flink/flink-docs-release-0.9/apis/streaming_guide.html) [Java] - system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
 * [gearpump](https://github.com/intel-hadoop/gearpump) [Scala] - lightweight real-time distributed streaming engine built on Akka.
 * [heron](https://blog.twitter.com/2015/flying-faster-with-twitter-heron) - Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter.
-* [Kafka Streams] (https://cwiki.apache.org/confluence/display/KAFKA/KIP-28+-+Add+a+processor+client) - lightweight stream processing library included in Apache Kafka (since 0.10 version).
+* [Kafka Streams] [Java] (https://cwiki.apache.org/confluence/display/KAFKA/KIP-28+-+Add+a+processor+client) - lightweight stream processing library included in Apache Kafka (since 0.10 version).
 * [mantis](http://www.slideshare.net/g9yuayon/qcon-talk-on-netflix-mantis-a-stream-processing-system) - Netflix's event stream processing system.
 * [millwheel](http://research.google.com/pubs/pub41378.html) - framework for building low-latency data-processing applications that is widely used at Google.
 * [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] - mapReduce-style framework for processing fast/streaming data.
@@ -59,6 +59,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [databus](https://github.com/linkedin/databus) [Java] - Linkedin's source-agnostic distributed change data capture system.
 * [flume](https://github.com/apache/flume) [Java] - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 * [suro](https://github.com/Netflix/suro) [Java] - data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data.
+* [StreamSets Data Collector](https://github.com/streamsets/datacollector) [Java] - continuous big data ingestion infrastructure that reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others.
 
 ### Online Machine Learning 
 
