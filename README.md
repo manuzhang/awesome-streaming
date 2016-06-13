@@ -95,39 +95,9 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 
 ### Readings
 
-#### Blogs
-
-* [Confluent blog](http://blog.confluent.io/)
-* [Ingest Tips](http://ingest.tips/)
-
-#### Articles
-
 1. [In-Stream Big Data Processing](https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/)
 2. [The world beyond batch: Streaming 101](http://radar.oreilly.com/2015/08/the-world-beyond-batch-streaming-101.html) by Tyler Akidau. 
-
-#### Streaming Algorithms and their applications 
-
-from [Real Time Analytics: Algorithms and Systems (VLDB 2015)](http://www.vldb.org/pvldb/vol8/p2040-Kejariwal.pdf)
-
-Problem | Description | Application
-------- | ----------- | -----------
-Sampling | Obtain a representative set of the stream | A/B Testing
-Filtering | Extract elements which meet a certain criterion | Set membership
-Correlation | Find data subsets (subgraphs) in (graph) data stream which are highly correlated to a given data set | Fraud detection  
-Estimating Cardinality | Estimate the number of distinct elements | Site audience analysis
-Estimating Quantiles | Estimate quantiles of a data stream with small amount of memory | Network analysis
-Estimating Moments | Estimating distribution of frequencies of different elements | Databases
-Finding Frequent Elements | Identify items in a multiset with frequency more than a threshold θ | Trending Hashtags
-Counting Inversions | Estimate number of inversions | Measure sortedness
-Finding Subsequences | Find Longest Increasing Subsequences (LIS), Longest Common Subsequence (LCS), subsequences similar to a given query sequence | Traffic analysis
-Path Analysis | Determine whether there exists a path of length ≤ ` between two nodes in a dynamic graph | Web graph analysis
-Anomaly Detection | Detect anomalies in a data stream | Sensor networks
-Temporal Pattern Analysis | Detect patterns in a data stream | Traffic analysis
-Data Prediction | Predict missing values in a data stream | Sensor data analysis
-Clustering | Cluster a data stream | Medical imaging
-Graph analysis | Extract unweighted and weighted matching, vertex cover, independent sets, spanners, subgraphs (sparsification) and random walks, computing min-cut | Web graph analysis
-Basic Counting Estimate | `m'` of the number `m` of 1-bits in the sliding window (of size `n`) such that `|m'  − m| ≤ em` | Popularity Analysis
-Significant One Counting | Estimate `m'` of the number `m` of 1-bits in the sliding window (of size `n`) such that if `m ≥ θn`, then `|m' − m| ≤ em` | Traffic accounting
+3. [Real Time Analytics: Algorithms and Systems (VLDB 2015)](http://www.vldb.org/pvldb/vol8/p2040-Kejariwal.pdf)
 
 
 ## License 
