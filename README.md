@@ -68,6 +68,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Apache Samoa](https://github.com/yahoo/samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
 * [trident-ml](https://github.com/pmerienne/trident-ml) [Java] - realtime online machine learning library based on Trident.
 * [StormCV](https://github.com/sensorstorm/StormCV) [Java] - enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
+* [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
 
 ### Stream SQL
 
