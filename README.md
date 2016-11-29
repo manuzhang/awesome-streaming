@@ -72,6 +72,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [trident-ml](https://github.com/pmerienne/trident-ml) [Java] - realtime online machine learning library based on Trident.
 * [StormCV](https://github.com/sensorstorm/StormCV) [Java] - enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
 * [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
+* [StreamingBandit](https://github.com/MKaptein/streamingbandit) [Python] - Provides a webserver to quickly setup and evaluate possible solutions to contextual multi-armed bandit (cMAB) problems.
 
 ### Stream SQL
 
