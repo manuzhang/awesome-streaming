@@ -98,6 +98,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 * [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 * [Turbine](https://github.com/Netflix/Turbine) [Java] - tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream.
+* [storm-crawler](http://stormcrawler.net/) [Java] - Web crawler SDK based on Apache Storm.
 
 ### Readings
 
