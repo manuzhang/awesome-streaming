@@ -5,6 +5,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ## Table of Contents
 
 - [Streaming Engine](#streaming-engine)
+- [Streaming Library](#streaming-library)
 - [IoT](#iot)
 - [Reactive Streams](#reactive-streams)
 - [DSL](#dsl)
@@ -21,7 +22,6 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Apache Flink Streaming](http://ci.apache.org/projects/flink/flink-docs-release-0.9/apis/streaming_guide.html) [Java] - system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
 * [Apache Gearpump](http://gearpump.apache.org) [Scala] - lightweight real-time distributed streaming engine built on Akka.
 * [Apache Ignite Streaming](https://ignite.apache.org/features/streaming.html) [Java] - Ignite streaming allows to process continuous never-ending streams of data in scalable and fault-tolerant fashion. 
-* [Apache Kafka Streams](http://kafka.apache.org/documentation#streams) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
 * [Apache Samza](http://samza.apache.org/) [Scala/Java] - distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management).
 * [Apache Spark Streaming](https://spark.apache.org/streaming/) [Scala] - makes it easy to build scalable fault-tolerant streaming applications.
 * [Apache Storm](https://storm.apache.org/) [Clojure/Java] - distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
@@ -36,6 +36,13 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] - distributed stream processing with exactly-once semantics based on Storm.
 * [Teknek](https://github.com/edwardcapriolo/teknek-core) [Java] - Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)
 * [concord](http://concord.io/) [C++] - a distributed stream processing framework built in C++ on top of Apache Mesos, designed for high performance data processing jobs that require flexibility & control.
+
+### Streaming Library
+* [Apache Kafka Streams](http://kafka.apache.org/documentation#streams) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
+* [Akka Streams](http://doc.akka.io/docs/akka/2.4.16/scala/stream/stream-introduction.html) [Scala] - stream processing library on Akka Actors. 
+* [Swave](http://swave.io/) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
+* [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
+
 
 ### IoT
 
