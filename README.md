@@ -6,6 +6,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 
 - [Streaming Engine](#streaming-engine)
 - [Streaming Library](#streaming-library)
+- [Streaming Application](#streaming-application)
 - [IoT](#iot)
 - [DSL](#dsl)
 - [Data Pipeline](#data-pipeline)
@@ -41,7 +42,12 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Akka Streams](http://doc.akka.io/docs/akka/2.4.16/scala/stream/stream-introduction.html) [Scala] - stream processing library on Akka Actors. 
 * [Swave](http://swave.io/) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
 * [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
-* [monifu](https://github.com/monifu/monifu) [scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
+* [monifu](https://github.com/monifu/monifu) [Scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
+
+### Streaming Application
+
+* [straw](https://github.com/rwalk/straw) [Python/Java] - A platform for real-time streaming search.
+* [storm-crawler](http://stormcrawler.net/) [Java] - Web crawler SDK based on Apache Storm.
 
 ### IoT
 
@@ -100,7 +106,6 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 * [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 * [Turbine](https://github.com/Netflix/Turbine) [Java] - tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream.
-* [storm-crawler](http://stormcrawler.net/) [Java] - Web crawler SDK based on Apache Storm.
 
 ### Readings
 
