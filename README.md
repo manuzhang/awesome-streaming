@@ -7,7 +7,6 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Streaming Engine](#streaming-engine)
 - [Streaming Library](#streaming-library)
 - [IoT](#iot)
-- [Reactive Streams](#reactive-streams)
 - [DSL](#dsl)
 - [Data Pipeline](#data-pipeline)
 - [Online Machine Learning](#online-machine-learning)
@@ -42,16 +41,12 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Akka Streams](http://doc.akka.io/docs/akka/2.4.16/scala/stream/stream-introduction.html) [Scala] - stream processing library on Akka Actors. 
 * [Swave](http://swave.io/) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
 * [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
-
+* [monifu](https://github.com/monifu/monifu) [scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
 
 ### IoT
 
 * [sensorbee](http://sensorbee.io/) [Go] - lightweight stream processing engine for IoT.
 * [quarks](http://quarks-edge.github.io/) [Java] - a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM.
-
-### Reactive Streams
-* [akka-streams](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0/scala/stream-cookbook.html) [scala] - an implementation of [Reactive Streams](http://www.reactive-streams.org/) in Akka.
-* [monifu](https://github.com/monifu/monifu) [scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
 
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] - library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
