@@ -37,6 +37,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] - distributed stream processing with exactly-once semantics based on Storm.
 * [Teknek](https://github.com/edwardcapriolo/teknek-core) [Java] - Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)
 * [concord](http://concord.io/) [C++] - a distributed stream processing framework built in C++ on top of Apache Mesos, designed for high performance data processing jobs that require flexibility & control.
+* [StreamBox](https://engineering.purdue.edu/~xzl/xsel/p/streambox/) - a modern stream processing engine which can handle out-of-order streaming data and achieve high throughput with low latency.
 
 ### Streaming Library
 * [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
