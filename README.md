@@ -40,6 +40,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [concord](http://concord.io/) [C++] - a distributed stream processing framework built in C++ on top of Apache Mesos, designed for high performance data processing jobs that require flexibility & control.
 * [StreamBox](https://engineering.purdue.edu/~xzl/xsel/p/streambox/) - a modern stream processing engine which can handle out-of-order streaming data and achieve high throughput with low latency.
 * [Wallaroo](http://www.wallaroolabs.com/community) [Python] - The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed.
+* [SABER](https://github.com/lsds/Saber) [Java/C] - Window-Based Hybrid CPU/GPU Stream Processing Engine.
 
 ### Streaming Library
 * [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
