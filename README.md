@@ -42,6 +42,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Wallaroo](http://www.wallaroolabs.com/community) [Python] - The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed.
 * [SABER](https://github.com/lsds/Saber) [Java/C] - Window-Based Hybrid CPU/GPU Stream Processing Engine.
 * [Onyx](https://github.com/onyx-platform/onyx) [Clojure] - Distributed, masterless, high performance, fault tolerant data processing.
+* [WSO2 Stream Processor](https://wso2.com/analytics) [Java] - Open source, cloud native and lightweight analytics product optimized for creating real-time, intelligent and actionable insights. 
 
 ### Streaming Library
 * [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
@@ -99,6 +100,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [squall](https://github.com/epfldata/squall) [Java] - Squall executes SQL queries on top of Storm for doing online processing.
 * [StreamCQL](https://github.com/HuaweiBigData/StreamCQL) [Java] - Continuous Query Language on RealTime Computation System.
 * [KSQL](https://github.com/confluentinc/ksql) [Java] - a Streaming SQL Engine for Apache Kafka.
+* [Siddhi](https://wso2.github.io/siddhi/) [Java] - open source library that listens to events from data streams, detects complex conditions described via a Streaming SQL language and triggers actions. 
 
 
 ### Benchmark
