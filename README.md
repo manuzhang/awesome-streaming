@@ -19,34 +19,32 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ### Streaming Engine
 
 * [Amazon Kinesis Streams](https://aws.amazon.com/kinesis/) [Java] - real-time, fully managed and scalable data stream engine provided by AWS 
-* [Apache Apex](https://github.com/apache/incubator-apex-core) [Java] - unified platform for big data stream and batch processing.
-* [Apache Flink Streaming](http://ci.apache.org/projects/flink/flink-docs-release-0.9/apis/streaming_guide.html) [Java] - system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
-* [Apache Gearpump](http://gearpump.apache.org) [Scala] - lightweight real-time distributed streaming engine built on Akka.
-* [Apache Ignite Streaming](https://ignite.apache.org/features/streaming.html) [Java] - Ignite streaming allows to process continuous never-ending streams of data in scalable and fault-tolerant fashion. 
-* [Apache Samza](http://samza.apache.org/) [Scala/Java] - distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management).
-* [Apache Spark Streaming](https://spark.apache.org/streaming/) [Scala] - makes it easy to build scalable fault-tolerant streaming applications.
-* [Apache Storm](https://storm.apache.org/) [Clojure/Java] - distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
+* [Apache Apex](https://github.com/apache/apex-core) [Java] - unified platform for big data stream and batch processing.
+* [Apache Flink](https://github.com/apache/flink) [Java] - system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
+* [Apache Gearpump](https://github.com/apache/incubator-gearpump) [Scala] - lightweight real-time distributed streaming engine built on Akka.
+* [Apache Samza](https://github.com/apache/samza) [Scala/Java] - distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management).
+* [Apache Spark Streaming](https://github.com/apache/spark) [Scala] - makes it easy to build scalable fault-tolerant streaming applications.
+* [Apache Storm](https://github.com/apache/storm) [Clojure/Java] - distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
 * [Hazelcast Jet](https://github.com/hazelcast/hazelcast-jet) [Java] - A general purpose distributed data processing engine, built on top of Hazelcast.
-* [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Integrates with many of the popular technologies in the Big Data ecosystem (Kafka, HDFS, Spark, etc.)
-* [heron](http://heronstreaming.io/) - Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter.
+* [heron](https://github.com/apache/incubator-heron) - Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter.
 * [mantis](http://www.slideshare.net/g9yuayon/qcon-talk-on-netflix-mantis-a-stream-processing-system) - Netflix's event stream processing system.
 * [millwheel](http://research.google.com/pubs/pub41378.html) - framework for building low-latency data-processing applications that is widely used at Google.
 * [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] - mapReduce-style framework for processing fast/streaming data.
-* [s4](http://incubator.apache.org/s4/) [Java] - general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
+* [s4](https://github.com/apache/incubator-s4) [Java] - general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
 * [SPQR](https://github.com/ottogroup/SPQR) [Java] - dynamic framework for processing high volumn data streams through pipelines.
 * [tigon](https://github.com/caskdata/tigon) [C++/Java] - high throughput real-time streaming processing framework built on Hadoop and HBase.
 * [hailstorm](https://github.com/hailstorm-hs/hailstorm) [Haskell] - distributed stream processing with exactly-once semantics based on Storm.
 * [Teknek](https://github.com/edwardcapriolo/teknek-core) [Java] - Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)
 * [concord](http://concord.io/) [C++] - a distributed stream processing framework built in C++ on top of Apache Mesos, designed for high performance data processing jobs that require flexibility & control.
 * [StreamBox](https://engineering.purdue.edu/~xzl/xsel/p/streambox/) - a modern stream processing engine which can handle out-of-order streaming data and achieve high throughput with low latency.
-* [Wallaroo](http://www.wallaroolabs.com/community) [Python] - The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed.
+* [Wallaroo](https://github.com/WallarooLabs/wallaroo) [Python] - The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed.
 * [SABER](https://github.com/lsds/Saber) [Java/C] - Window-Based Hybrid CPU/GPU Stream Processing Engine.
 * [Onyx](https://github.com/onyx-platform/onyx) [Clojure] - Distributed, masterless, high performance, fault tolerant data processing.
 
 ### Streaming Library
 * [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
-* [Apache Kafka Streams](http://kafka.apache.org/documentation#streams) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
-* [Akka Streams](https://doc.akka.io/docs/akka/2.5.13/stream/stream-introduction.html) [Scala] - stream processing library on Akka Actors. 
+* [Apache Kafka Streams](https://github.com/apache/kafka) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
+* [Akka Streams](https://github.com/akka/akka) [Scala] - stream processing library on Akka Actors. 
 * [Swave](https://github.com/sirthias/swave) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
 * [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
 * [monix](https://github.com/monix/monix) [Scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
@@ -55,12 +53,12 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ### Streaming Application
 
 * [straw](https://github.com/rwalk/straw) [Python/Java] - A platform for real-time streaming search.
-* [storm-crawler](http://stormcrawler.net/) [Java] - Web crawler SDK based on Apache Storm.
+* [storm-crawler](https://github.com/DigitalPebble/storm-crawler) [Java] - Web crawler SDK based on Apache Storm.
 
 ### IoT
 
-* [sensorbee](http://sensorbee.io/) [Go] - lightweight stream processing engine for IoT.
-* [Apache Edgent](http://edgent.apache.org/) [Java] - a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM.
+* [sensorbee](https://github.com/sensorbee/sensorbee) [Go] - lightweight stream processing engine for IoT.
+* [Apache Edgent](https://github.com/apache/incubator-edgent) [Java] - a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM.
 
 ### DSL
 * [summingbird](https://github.com/twitter/summingbird) [Scala] - library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding.
@@ -87,7 +85,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 
 * [streamDM](https://github.com/huawei-noah/streamDM) [Scala] - mining Big Data streams using Spark Streaming from Huawei.
 * [jubatus](http://jubat.us/en/) [C++] - distributed processing framework and streaming machine learning library.
-* [Apache Samoa](https://github.com/yahoo/samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
+* [Apache Samoa](https://github.com/apache/incubator-samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
 * [trident-ml](https://github.com/pmerienne/trident-ml) [Java] - realtime online machine learning library based on Trident.
 * [StormCV](https://github.com/sensorstorm/StormCV) [Java] - enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
 * [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
@@ -113,8 +111,8 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 
 ### Toolkit
 
-* [akka](http://akka.io/) [Scala] - toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
-* [pulsar](http://quantmind.github.io/pulsar/index.html#) [Python] - Actor based event driven concurrent framework for Python.
+* [akka](https://github.com/akka/akka) [Scala] - toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
+* [pulsar](https://github.com/quantmind/pulsar/) [Python] - Actor based event driven concurrent framework for Python.
 * [aeron](https://github.com/real-logic/Aeron) [Java/C++] - efficient reliable unicast and multicast message transport.
 * [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 * [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
