@@ -82,6 +82,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 * [Redis Streams](http://antirez.com/news/114) - Redis implementation of a unified log structure
 * [suro](https://github.com/Netflix/suro) [Java] - data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data.
 * [StreamSets Data Collector](https://github.com/streamsets/datacollector) [Java] - continuous big data ingestion infrastructure that reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others.
+* [LogDevice](https://logdevice.io/) [C++] - a high-performant distributed system by Facebook for streaming and storing sequential data, using a log structure
 
 ### Online Machine Learning 
 
