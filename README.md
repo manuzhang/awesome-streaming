@@ -38,8 +38,8 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [tigon](https://github.com/caskdata/tigon) [C++/Java] - high throughput real-time streaming processing framework built on Hadoop and HBase.
 - [Teknek](https://github.com/edwardcapriolo/teknek-core) [Java] - Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)
 Mesos, designed for high performance data processing jobs that require flexibility & control.
-- [Trill](https://github.com/Microsoft/trill) [.NET/C#] Trill is a high-performance one-pass in-memory streaming analytics engine from Microsoft Research.
-- [Wallaroo](https://github.com/WallarooLabs/wallaroo) [Python] - The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed.
+- [Trill](https://github.com/Microsoft/trill) [.NET/C#] - Trill is a high-performance one-pass in-memory streaming analytics engine from Microsoft Research.
+- [Wallaroo](https://github.com/WallarooLabs/wallaroo) [Python] - A fast, stream-processing framework. Wallaroo makes it easy to react to data in real-time. By eliminating infrastructure complexity, going from prototype to production has never been simpler.
 
 ### Streaming Library
 
@@ -51,7 +51,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Streamline](https://github.com/hortonworks/streamline) [Java] - Stream Analytics Framework by Hortonworks, designed as a wrapper around existing streaming solutions like Storm. Aimed to allow users to drag-and-drop streaming components to focus on business logic.
 - [StreamAlert](https://github.com/airbnb/streamalert) [Python] - Airbnb's Real-time Data Analysis and Alerting.
 - [Swave](https://github.com/sirthias/swave) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
-- [Streamz](https://github.com/python-streamz/streamz) [Python] - A lightweight library for building pipelines to manage continuous streams of data - supports complex pipelines that involve branching, joining, flow control, feedback, back pressure, and so on.
+- [Streamz](https://github.com/python-streamz/streamz) [Python] - A lightweight library for building pipelines to manage continuous streams of data; supports complex pipelines that involve branching, joining, flow control, feedback, back pressure, and so on.
 
 ### Streaming Application
 
@@ -101,7 +101,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [squall](https://github.com/epfldata/squall) [Java] - Squall executes SQL queries on top of Storm for doing online processing.
 - [StreamCQL](https://github.com/Zhiqiang-He/StreamCQL) [Java] - Continuous Query Language on RealTime Computation System.
 - [KSQL](https://github.com/confluentinc/ksql) [Java] - a Streaming SQL Engine for Apache Kafka.
-- [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) [.NET] a massively scalable SQL engine for processing streaming data
+
 
 ### Benchmark
 
