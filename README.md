@@ -68,6 +68,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [sensorbee](https://github.com/sensorbee/sensorbee) [Go] - lightweight stream processing engine for IoT.
 - [Apache Edgent](https://github.com/apache/incubator-edgent) [Java] - a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM.
+- [StreamPipes](https://github.com/streampipes/streampipes) [Java] - a complete toolbox to easily analyze IoT (big) data streams without programming skills.
 
 ### DSL
 
