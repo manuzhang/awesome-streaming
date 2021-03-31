@@ -115,7 +115,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [pipelinedb](https://github.com/pipelinedb/pipelinedb) [C] - An open-source relational database that runs SQL queries continuously on streams, incrementally storing results in tables.
 - [squall](https://github.com/epfldata/squall) [Java] - Squall executes SQL queries on top of Storm for doing online processing.
 - [StreamCQL](https://github.com/Zhiqiang-He/StreamCQL) [Java] - Continuous Query Language on RealTime Computation System.
-- [KSQL](https://github.com/confluentinc/ksql) [Java] - a Streaming SQL Engine for Apache Kafka.
+- [ksqlDB](https://github.com/confluentinc/ksql) [Java] - : A cloud-native, source-available [database](https://ksqldb.io/) purpose-built for stream processing applications
 
 
 ### Benchmark
