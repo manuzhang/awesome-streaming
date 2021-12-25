@@ -51,6 +51,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [LightSaber](https://github.com/lsds/LightSaber) [C++] - Multi-core Window-Based Stream Processing Engine. LightSaber uses code generation for efficient window aggregation.
 - [HStreamDB](https://github.com/hstreamdb/hstream) [Haskell] - The streaming database built for IoT data storage and real-time processing.
 - [Kuiper](https://github.com/emqx/kuiper) [Golang] - An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
+- [WindFlow](https://paragroup.github.io/WindFlow) [C++] - A C++17 Data Stream Processing Parallel Library for Multicores and GPUs
 
 ### Streaming Library
 
