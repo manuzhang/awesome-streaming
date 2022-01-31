@@ -72,7 +72,6 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 ### Streaming Application
 
-- [Daggy](https://github.com/synacker/daggy) [C++] - real-time streams aggregation and catching.
 - [straw](https://github.com/rwalk/straw) [Python/Java] - A platform for real-time streaming search.
 - [storm-crawler](https://github.com/DigitalPebble/storm-crawler) [Java] - Web crawler SDK based on Apache Storm.
 
