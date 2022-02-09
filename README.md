@@ -141,6 +141,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 - [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 - [Turbine](https://github.com/Netflix/Turbine) [Java] - tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream.
+- [Nussknacker](https://github.com/TouK/nussknacker) [Scala] - A visual tool to define and run real-time decision algorithms.
 
 ### Closed Source
 
