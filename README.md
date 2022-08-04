@@ -61,7 +61,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Benthos](https://github.com/Jeffail/benthos) [Go] - Benthos is a high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads
 - [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
 - [monix](https://github.com/monix/monix) [Scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
-- [Scramjet Node.js](https://github.com/scramjetorg/framework-js) - [Node.js] functional reactive stream programming framework written on top of Node.js object streams.
+- [Scramjet Node.js](https://github.com/scramjetorg/framework-js) - [Node.js] functional reactive stream programming framework written on top of Node.js object streams + [the legacy Scramjet.js version](https://github.com/scramjetorg/scramjet)
 - [Scramjet Python](https://github.com/scramjetorg/framework-py) - [Python] functional reactive stream programming framework written from scratch operating on object, string and buffer streams.
 - [Scramjet C++](https://github.com/scramjetorg/framework-c++) - [C++] functional reactive stream programming framework written on top of Node.js object streams.
 - [Streamline](https://github.com/hortonworks/streamline) [Java] - Stream Analytics Framework by Hortonworks, designed as a wrapper around existing streaming solutions like Storm. Aimed to allow users to drag-and-drop streaming components to focus on business logic.
