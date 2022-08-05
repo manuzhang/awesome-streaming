@@ -62,8 +62,8 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
 - [monix](https://github.com/monix/monix) [Scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
 - [Scramjet Node.js](https://github.com/scramjetorg/framework-js) - [Node.js] functional reactive stream programming framework written on top of Node.js object streams + [the legacy Scramjet.js version](https://github.com/scramjetorg/scramjet)
-- [Scramjet Python](https://github.com/scramjetorg/framework-py) - [Python] functional reactive stream programming framework written from scratch operating on object, string and buffer streams.
-- [Scramjet C++](https://github.com/scramjetorg/framework-c++) - [C++] functional reactive stream programming framework written on top of Node.js object streams.
+- [Scramjet Python](https://github.com/scramjetorg/framework-python) - [Python] functional reactive stream programming framework written from scratch operating on object, string and buffer streams.
+- [Scramjet C++](https://github.com/scramjetorg/framework-cpp) - [C++] functional reactive stream programming framework written on top of Node.js object streams.
 - [Streamline](https://github.com/hortonworks/streamline) [Java] - Stream Analytics Framework by Hortonworks, designed as a wrapper around existing streaming solutions like Storm. Aimed to allow users to drag-and-drop streaming components to focus on business logic.
 - [StreamAlert](https://github.com/airbnb/streamalert) [Python] - Airbnb's Real-time Data Analysis and Alerting.
 - [Swave](https://github.com/sirthias/swave) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
