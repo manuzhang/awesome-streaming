@@ -56,6 +56,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 ### Streaming Library
 
 - [Apache Kafka Streams](https://github.com/apache/kafka) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
+- [Streamiz](https://github.com/LGouellec/kafka-streams-dotnet) [C#] - a .Net Stream Processing Library for Apache Kafka
 - [Akka Streams](https://github.com/akka/akka) [Scala] - stream processing library on Akka Actors.
 - [Daggy](https://github.com/synacker/daggy) [C++] - real-time streams aggregation and catching. 
 - [Benthos](https://github.com/Jeffail/benthos) [Go] - Benthos is a high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads
