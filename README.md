@@ -73,6 +73,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Stream Ops](https://github.com/nanosai/stream-ops-java) [Java] - A fully embeddable data streaming engine and stream processing API for Java.
 - [Tributary](https://github.com/timkpaine/tributary) [Python] - A python library for constructing dataflow graphs. Supports synchronous, reactive data streams built using python generators that mimic complex event processors, as well as lazily-evaluated acyclic graphs and functional currying streams.
 - [YoMo](https://github.com/yomorun/yomo) [Go] - An open source Streaming Serverless Framework for building Low-latency Geo-distributed system. YoMo Built atop [QUIC Transport Protocol](https://en.wikipedia.org/wiki/QUIC) and Functional Reactive Programming interface. 
+- [Mediapipe](https://github.com/google/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 
 ### Streaming Application
 
@@ -158,7 +159,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
 - [jubatus](http://jubat.us/en/) [C++] - distributed processing framework and streaming machine learning library.
 - [millwheel](http://research.google.com/pubs/pub41378.html) - framework for building low-latency data-processing applications that is widely used at Google.
-
+- [NVIDIA Deep Stream](https://developer.nvidia.com/deepstream-sdk) [Python/C/C++] - a platform for real-time image, video and audio processing, preferably using on edge devices or cloud.
 
 ### Readings
 
