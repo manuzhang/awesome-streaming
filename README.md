@@ -159,6 +159,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 4. [Grokking Streaming Systems](https://www.manning.com/books/grokking-streaming-systems) by Josh Fischer & Ning Wang
 5. [Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing](https://www.oreilly.com/library/view/streaming-systems/9781491983867/) by Reuven Lax, Slava Chernyak, and Tyler Akidau
 6. [Data Pipelines with Apache Airflow](https://www.manning.com/books/data-pipelines-with-apache-airflow) by Bas P. Harenslak and Julian Rutger de Ruiter
+7. [Optimization Algorithms](https://www.manning.com/books/optimization-algorithms) by Alaa Khamisr
 
 ## License
 
