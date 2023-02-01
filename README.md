@@ -24,13 +24,14 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ### Streaming Engine
 
 - [Apache Apex](https://github.com/apache/apex-core) [Java] - unified platform for big data stream and batch processing.
-- [Apache Ballista](https://github.com/apache/arrow-datafusion/tree/master/ballista) [Rust] - distributed compute platform powered by Apache Arrow.
+- [Apache Ballista](https://github.com/apache/arrow-ballista) [Rust] - distributed compute platform powered by Apache Arrow.
 - [Apache Flink](https://github.com/apache/flink) [Java] - system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing.
 - [Apache Heron (incubating)](https://github.com/apache/incubator-heron) [Java] - a realtime, distributed, fault-tolerant stream processing engine from Twitter.
 - [Apache Samza](https://github.com/apache/samza) [Scala/Java] - distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management).
 - [Apache Spark Streaming](https://github.com/apache/spark) [Scala] - makes it easy to build scalable fault-tolerant streaming applications.
 - [Apache Storm](https://github.com/apache/storm) [Clojure/Java] - distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing. 
 - [AthenaX](https://github.com/uber/AthenaX) [Java] - Uber's Stream Analytics Framework used in production
+- [Bytewax](https://github.com/bytewax/bytewax) [Python] - data parallel, distributed, stateful stream processing framework.
 - [Faust](https://github.com/robinhood/faust) [Python] - stream processing library, porting the ideas from Kafka Streams to Python
 - [Gearpump](https://github.com/gearpump/gearpump) [Scala] - lightweight real-time distributed streaming engine built on Akka.
 - [Hazelcast Jet](https://github.com/hazelcast/hazelcast-jet) [Java] - A general purpose distributed data processing engine, built on top of Hazelcast.
@@ -41,7 +42,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Onyx](https://github.com/onyx-platform/onyx) [Clojure] - Distributed, masterless, high performance, fault tolerant data processing.
 - [s4](https://github.com/apache/incubator-s4) [Java] - general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
 - [SABER](https://github.com/lsds/Saber) [Java/C] - Window-Based Hybrid CPU/GPU Stream Processing Engine.
-- [Scramjet Transform Hub](https://github.com/scramjetorg/transform-hub) [JavaScript/Node.js] - data processing engine for running multiple data processing apps (sequences) written in JavaScript or TypeScript  
+- [Scramjet Cloud Platform](https://github.com/scramjetorg/transform-hub) [Python/JavaScript/Node.js] - data processing engine for running multiple data processing apps (sequences) written in Python, JavaScript or TypeScript 
 - [SPQR](https://github.com/ottogroup/SPQR) [Java] - dynamic framework for processing high volumn data streams through pipelines.
 - [tigon](https://github.com/caskdata/tigon) [C++/Java] - high throughput real-time streaming processing framework built on Hadoop and HBase.
 - [Teknek](https://github.com/edwardcapriolo/teknek-core) [Java] - Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)
@@ -51,15 +52,20 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [LightSaber](https://github.com/lsds/LightSaber) [C++] - Multi-core Window-Based Stream Processing Engine. LightSaber uses code generation for efficient window aggregation.
 - [HStreamDB](https://github.com/hstreamdb/hstream) [Haskell] - The streaming database built for IoT data storage and real-time processing.
 - [Kuiper](https://github.com/emqx/kuiper) [Golang] - An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
+- [WindFlow](https://paragroup.github.io/WindFlow) [C++] - A C++17 Data Stream Processing Parallel Library for Multicores and GPUs
 
 ### Streaming Library
 
 - [Apache Kafka Streams](https://github.com/apache/kafka) [Java] - lightweight stream processing library included in Apache Kafka (since 0.10 version).
-- [Akka Streams](https://github.com/akka/akka) [Scala] - stream processing library on Akka Actors. 
+- [Streamiz](https://github.com/LGouellec/kafka-streams-dotnet) [C#] - a .Net Stream Processing Library for Apache Kafka
+- [Akka Streams](https://github.com/akka/akka) [Scala] - stream processing library on Akka Actors.
+- [Daggy](https://github.com/synacker/daggy) [C++] - real-time streams aggregation and catching. 
 - [Benthos](https://github.com/Jeffail/benthos) [Go] - Benthos is a high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads
 - [FS2(prev. 'Scalaz-Stream')](https://github.com/functional-streams-for-scala/fs2) [Scala] - Compositional, streaming I/O library for Scala.
 - [monix](https://github.com/monix/monix) [Scala] - high-performance Scala / Scala.js library for composing asynchronous and event-based programs.
-- [Scramjet Framework](https://github.com/scramjetorg/scramjet) - functional reactive stream programming framework written on top of Node.js object streams.
+- [Scramjet Node.js](https://github.com/scramjetorg/framework-js) - [Node.js] functional reactive stream programming framework written on top of Node.js object streams + [the legacy Scramjet.js version](https://github.com/scramjetorg/scramjet)
+- [Scramjet Python](https://github.com/scramjetorg/framework-python) - [Python] functional reactive stream programming framework written from scratch operating on object, string and buffer streams.
+- [Scramjet C++](https://github.com/scramjetorg/framework-cpp) - [C++] functional reactive stream programming framework written on top of Node.js object streams.
 - [Streamline](https://github.com/hortonworks/streamline) [Java] - Stream Analytics Framework by Hortonworks, designed as a wrapper around existing streaming solutions like Storm. Aimed to allow users to drag-and-drop streaming components to focus on business logic.
 - [StreamAlert](https://github.com/airbnb/streamalert) [Python] - Airbnb's Real-time Data Analysis and Alerting.
 - [Swave](https://github.com/sirthias/swave) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
@@ -67,6 +73,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Stream Ops](https://github.com/nanosai/stream-ops-java) [Java] - A fully embeddable data streaming engine and stream processing API for Java.
 - [Tributary](https://github.com/timkpaine/tributary) [Python] - A python library for constructing dataflow graphs. Supports synchronous, reactive data streams built using python generators that mimic complex event processors, as well as lazily-evaluated acyclic graphs and functional currying streams.
 - [YoMo](https://github.com/yomorun/yomo) [Go] - An open source Streaming Serverless Framework for building Low-latency Geo-distributed system. YoMo Built atop [QUIC Transport Protocol](https://en.wikipedia.org/wiki/QUIC) and Functional Reactive Programming interface. 
+- [Mediapipe](https://github.com/google/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
 
 ### Streaming Application
 
@@ -91,6 +98,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [Apache Kafka](https://github.com/apache/kafka) [Scala/Java] - distributed, partitioned, replicated commit log service, which provides the functionality of a messaging system, but with a unique design.
 - [Apache Pulsar](https://github.com/apache/incubator-pulsar) [Java] - distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API.
+- [Apache RocketMQ](https://github.com/apache/rocketmq) [Java] - distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.
 - [brooklin](https://github.com/linkedin/Brooklin/) [Java] - a distributed system intended for streaming data between various heterogeneous source and destination systems with high reliability and throughput at scale from Linkedin (replaced databus).
 - [camus](https://github.com/linkedin/camus) [Java] - Linkedin's Kafka -> HDFS pipeline.
 - [databus](https://github.com/linkedin/databus) [Java] - Linkedin's source-agnostic distributed change data capture system.
@@ -101,6 +109,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [metaq](https://github.com/killme2008/Metamorphosis) [Java] - Taobao's high available, high performance distributed messaging system
 - [NATS streaming](https://github.com/nats-io/nats-streaming-server) [Go] - fast disk-backed messaging solution
 - [nsq](https://github.com/nsqio/nsq) [Go] - realtime distributed messaging platform designed to operate at scale, handling billions of messages per day.
+- [Redpanda](https://github.com/redpanda-data/redpanda) [C++] - Redpanda is Kafka compatible, ZooKeeper-free, JVM-free and source available.
 - [RudderStack](https://github.com/rudderlabs/rudder-server) [Go] - an open source customer data infrastructure (segment, mparticle alternative).
 - [suro](https://github.com/Netflix/suro) [Java] - data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data.
 - [StreamSets Data Collector](https://github.com/streamsets/datacollector-oss) [Java] - continuous big data ingestion infrastructure that reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others.
@@ -109,6 +118,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [Apache Samoa](https://github.com/apache/incubator-samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
 - [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
+- [River](https://github.com/online-ml/river) [Python] - online machine learning library.
 - [streamDM](https://github.com/huawei-noah/streamDM) [Scala] - mining Big Data streams using Spark Streaming from Huawei.
 - [StreamingBandit](https://github.com/Nth-iteration-labs/streamingbandit) [Python] - Provides a webserver to quickly setup and evaluate possible solutions to contextual multi-armed bandit (cMAB) problems.
 - [StormCV](https://github.com/sensorstorm/StormCV) [Java] - enables the use of Apache Storm for video processing by adding computer vision (CV) specific operations and data model.
@@ -126,7 +136,6 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 ### Benchmark
 
-- [storm-benchmark](https://github.com/intel-hadoop/storm-benchmark) [Java] - a set of benchmarks to test Storm performance.
 - [storm-perf-test](https://github.com/yahoo/storm-perf-test) [Java] - a simple storm performance/stress test.
 - [streaming-benchmarks](https://github.com/yahoo/streaming-benchmarks) [Java] - Benchmarks for Low Latency (Streaming) solutions including Apache Storm, Apache Spark, Apache Flink, etc.
 - [flotilla](https://github.com/tylertreat/Flotilla) [Go] - Automated message queue orchestration for scaled-up benchmarking.
@@ -139,6 +148,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 - [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
 - [Turbine](https://github.com/Netflix/Turbine) [Java] - tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream.
+- [Nussknacker](https://github.com/TouK/nussknacker) [Scala] - A visual tool to define and run real-time decision algorithms.
 
 ### Closed Source
 
@@ -149,7 +159,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [IBM Streams](https://www.ibm.com/analytics/us/en/technology/stream-computing/) [Python/Java/Scala] - platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box.
 - [jubatus](http://jubat.us/en/) [C++] - distributed processing framework and streaming machine learning library.
 - [millwheel](http://research.google.com/pubs/pub41378.html) - framework for building low-latency data-processing applications that is widely used at Google.
-
+- [NVIDIA Deep Stream](https://developer.nvidia.com/deepstream-sdk) [Python/C/C++] - a platform for real-time image, video and audio processing, preferably using on edge devices or cloud.
 
 ### Readings
 
