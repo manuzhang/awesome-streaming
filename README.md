@@ -72,6 +72,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Swave](https://github.com/sirthias/swave) [Scala] - A lightweight Reactive Streams Infrastructure Toolkit for Scala.
 - [Streamz](https://github.com/python-streamz/streamz) [Python] - A lightweight library for building pipelines to manage continuous streams of data; supports complex pipelines that involve branching, joining, flow control, feedback, back pressure, and so on.
 - [Stream Ops](https://github.com/nanosai/stream-ops-java) [Java] - A fully embeddable data streaming engine and stream processing API for Java.
+- [Substation](https://github.com/brexhq/substation) [Go] - Substation is a cloud native data pipeline and transformation toolkit written in Go.
 - [Tributary](https://github.com/timkpaine/tributary) [Python] - A python library for constructing dataflow graphs. Supports synchronous, reactive data streams built using python generators that mimic complex event processors, as well as lazily-evaluated acyclic graphs and functional currying streams.
 - [YoMo](https://github.com/yomorun/yomo) [Go] - An open source Streaming Serverless Framework for building Low-latency Geo-distributed system. YoMo Built atop [QUIC Transport Protocol](https://en.wikipedia.org/wiki/QUIC) and Functional Reactive Programming interface. 
 - [Mediapipe](https://github.com/google/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
