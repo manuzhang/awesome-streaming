@@ -81,6 +81,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [straw](https://github.com/rwalk/straw) [Python/Java] - A platform for real-time streaming search.
 - [storm-crawler](https://github.com/DigitalPebble/storm-crawler) [Java] - Web crawler SDK based on Apache Storm.
+- [Zilla](https://github.com/aklivity/zilla) - Cross-platform, API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT and the native Kafka protocol.
 
 ### IoT
 
