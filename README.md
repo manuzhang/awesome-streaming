@@ -79,6 +79,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 ### Streaming Application
 
+- [javactrl-kafka](https://github.com/javactrl/javactrl-kafka) - An application of a stateful stream processing for workflow as Java code (microservices orchestration, business process automation, and more).
 - [straw](https://github.com/rwalk/straw) [Python/Java] - A platform for real-time streaming search.
 - [storm-crawler](https://github.com/DigitalPebble/storm-crawler) [Java] - Web crawler SDK based on Apache Storm.
 - [Zilla](https://github.com/aklivity/zilla) [Java] - Cross-platform, API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT and the native Kafka protocol.
