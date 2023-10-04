@@ -124,6 +124,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [Apache Samoa](https://github.com/apache/incubator-samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
 - [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
+- [Numalogic] (https://github.com/numaproj/numalogic) [Python] - Collection of ML models and libraries for real-time anomaly detection and forecasting on time series data. Built on Numaflow, a K8s native stream processing platform
 - [River](https://github.com/online-ml/river) [Python] - online machine learning library.
 - [streamDM](https://github.com/huawei-noah/streamDM) [Scala] - mining Big Data streams using Spark Streaming from Huawei.
 - [StreamingBandit](https://github.com/Nth-iteration-labs/streamingbandit) [Python] - Provides a webserver to quickly setup and evaluate possible solutions to contextual multi-armed bandit (cMAB) problems.
