@@ -8,22 +8,18 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 
 ## Table of Contents
 
-- [Awesome Streaming   ](#awesome-streaming---)
-- [Website](#website)
-- [Table of Contents](#table-of-contents)
-  - [Streaming Engine](#streaming-engine)
-  - [Streaming Library](#streaming-library)
-  - [Streaming Application](#streaming-application)
-  - [IoT](#iot)
-  - [DSL](#dsl)
-  - [Data Pipeline](#data-pipeline)
-  - [Online Machine Learning](#online-machine-learning)
-  - [Streaming SQL](#streaming-sql)
-  - [Benchmark](#benchmark)
-  - [Toolkit](#toolkit)
-  - [Closed Source](#closed-source)
-  - [Readings](#readings)
-- [License](#license)
+- [Streaming Engine](#streaming-engine)
+- [Streaming Library](#streaming-library)
+- [Streaming Application](#streaming-application)
+- [IoT](#iot)
+- [DSL](#dsl)
+- [Data Pipeline](#data-pipeline)
+- [Online Machine Learning](#online-machine-learning)
+- [Streaming SQL](#streaming-sql)
+- [Toolkit](#toolkit)
+- [Benchmark](#benchmark)
+- [Closed Source](#closed-source)
+- [Readings](#readings)
 
 ### Streaming Engine
 
