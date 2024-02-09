@@ -39,6 +39,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Maki Nage](https://github.com/maki-nage/makinage) [Python] - A stream processing framework for data scientists, based on Kafka and ReactiveX.
 - [mantis](https://github.com/Netflix/mantis) [Java] - Netflix's platform to build an ecosystem of realtime stream processing applications
 - [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] - mapReduce-style framework for processing fast/streaming data.
+- [Numaflow](https://github.com/numaproj/numaflow) [Java/Python/Go/Rust] - Kubernetes native stream processing platform with language agnostic framework. Scalable and cost-efficient
 - [Onyx](https://github.com/onyx-platform/onyx) [Clojure] - Distributed, masterless, high performance, fault tolerant data processing.
 - [Pathway](https://github.com/pathwaycom/pathway) [Python] - The fastest data processing engine supporting unified workflows for batch, streaming data, and LLM applications.
 - [s4](https://github.com/apache/incubator-s4) [Java] - general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
@@ -124,6 +125,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 
 - [Apache Samoa](https://github.com/apache/incubator-samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
 - [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
+- [Numalogic] (https://github.com/numaproj/numalogic) [Python] - Collection of ML models and libraries for real-time anomaly detection and forecasting on time series data. Built on Numaflow, a K8s native stream processing platform
 - [River](https://github.com/online-ml/river) [Python] - online machine learning library.
 - [streamDM](https://github.com/huawei-noah/streamDM) [Scala] - mining Big Data streams using Spark Streaming from Huawei.
 - [StreamingBandit](https://github.com/Nth-iteration-labs/streamingbandit) [Python] - Provides a webserver to quickly setup and evaluate possible solutions to contextual multi-armed bandit (cMAB) problems.
