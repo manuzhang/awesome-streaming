@@ -152,6 +152,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 ### Toolkit
 
 - [akka](https://github.com/akka/akka) [Scala] - toolkit and runtime for building highly concurrent, distributed, and resilient message-driven application on the JVM.
+- [Apache Pekko](https://github.com/apache/incubator-pekko) [Scala, Java] - Fork of Akka 2.6.x, prior to the Akka project's adoption of the Business Source License.
 - [pulsar](https://github.com/quantmind/pulsar/) [Python] - Actor based event driven concurrent framework for Python.
 - [aeron](https://github.com/real-logic/Aeron) [Java/C++] - efficient reliable unicast and multicast message transport.
 - [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
