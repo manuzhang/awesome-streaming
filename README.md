@@ -157,6 +157,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [aeron](https://github.com/real-logic/Aeron) [Java/C++] - efficient reliable unicast and multicast message transport.
 - [StreamFlow](https://github.com/lmco/streamflow) [Java] - stream processing tool designed to help build and monitor processing workflows.
 - [samza-luwak](https://github.com/romseygeek/samza-luwak) [Java] - uses Luwak, a stored-query engine built on Lucene, to implement full-text search on streams.
+- [Streamdal](https://streamdal.com) [Go/Node.js/Python] - A tool to embed privacy controls in your application code to detect PII as it enters and leaves your systems, preventing it from reaching unintended data streams or pipelines.
 - [Turbine](https://github.com/Netflix/Turbine) [Java] - tool for aggregating streams of Server-Sent Event (SSE) JSON data into a single stream.
 - [Nussknacker](https://github.com/TouK/nussknacker) [Scala] - A visual tool to define and run real-time decision algorithms.
 
