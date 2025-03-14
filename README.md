@@ -33,6 +33,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Arroyo](https://github.com/ArroyoSystems/arroyo) [Rust] - a distributed stream processing engine. Supports SQL and Rust pipelines. Scales up to millions of events per second. Supports stateful operations like windows and joins, state checkpointing for fault-tolerance and recovery of pipelines. Uses the Timely Dataflow model.
 - [AthenaX](https://github.com/uber/AthenaX) [Java] - Uber's Stream Analytics Framework used in production
 - [Bytewax](https://github.com/bytewax/bytewax) [Python] - data parallel, distributed, stateful stream processing framework.
+- [CocoIndex](https://github.com/cocoindex-io/cocoindex) [Rust/Python] - ETL framework to build fresh index for AI, with realtime incremental updates.
 - [Faust](https://github.com/robinhood/faust) [Python] - stream processing library, porting the ideas from Kafka Streams to Python
 - [Gearpump](https://github.com/gearpump/gearpump) [Scala] - lightweight real-time distributed streaming engine built on Akka.
 - [Hazelcast Jet](https://github.com/hazelcast/hazelcast-jet) [Java] - A general purpose distributed data processing engine, built on top of Hazelcast.
