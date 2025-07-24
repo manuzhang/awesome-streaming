@@ -42,6 +42,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Maki Nage](https://github.com/maki-nage/makinage) [Python] - A stream processing framework for data scientists, based on Kafka and ReactiveX.
 - [mantis](https://github.com/Netflix/mantis) [Java] - Netflix's platform to build an ecosystem of realtime stream processing applications
 - [mupd8(muppet)](https://github.com/walmartlabs/mupd8) [Scala/Java] - mapReduce-style framework for processing fast/streaming data.
+- [NebulaStream](https://github.com/nebulastream/nebulastream) [C++] - High-performance, general-purpose, end-to-end data-management system for cloud-edge-sensor environments.
 - [Numaflow](https://github.com/numaproj/numaflow) [Java/Python/Go/Rust] - Kubernetes native stream processing platform with language agnostic framework. Scalable and cost-efficient
 - [Onyx](https://github.com/onyx-platform/onyx) [Clojure] - Distributed, masterless, high performance, fault tolerant data processing.
 - [Pathway](https://github.com/pathwaycom/pathway) [Python] - The fastest data processing engine supporting unified workflows for batch, streaming data, and LLM applications.
