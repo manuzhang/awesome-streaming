@@ -84,6 +84,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Tributary](https://github.com/timkpaine/tributary) [Python] - A python library for constructing dataflow graphs. Supports synchronous, reactive data streams built using python generators that mimic complex event processors, as well as lazily-evaluated acyclic graphs and functional currying streams.
 - [YoMo](https://github.com/yomorun/yomo) [Go] - An open source Streaming Serverless Framework for building Low-latency Geo-distributed system. YoMo Built atop [QUIC Transport Protocol](https://en.wikipedia.org/wiki/QUIC) and Functional Reactive Programming interface. 
 - [Mediapipe](https://github.com/google/mediapipe) - Cross-platform, customizable ML solutions for live and streaming media.
+- [Kzmlabs StateFun Actors](https://github.com/kzmlabs/flink-statefun) [Java] - Stateful actors on Apache Flink 2.x with durable per-key state, exactly-once messaging, and Kafka/Kinesis I/O. Continuation of Apache Stateful Functions on Flink 2.2 + Java 21.
 
 ### Streaming Application
 
