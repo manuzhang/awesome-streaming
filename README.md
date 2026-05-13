@@ -151,6 +151,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Materialize](https://materialize.com) [Rust] - A source-available streaming SQL engine for maintaining materialized views on data from message brokers and databases.
 - [Siddhi](https://github.com/siddhi-io/siddhi) [Java] - A cloud native Streaming and Complex Event Processing engine that understands Streaming SQL queries in order to capture events from diverse data sources, process them, detect complex conditions, and publish output to various endpoints in real time.
 - [Proton](https://github.com/timeplus-io/proton) [C++] - A unified streaming and historical data analytics database in a single binary, powered by ClickHouse.
+- [laminardb](https://github.com/laminardb/laminardb) [Rust] - A open-source streaming SQL engine, embed it in your process or run it standalone (single binary). Supports tumbling, hopping, and session windows, watermarks, ASOF joins, stream-to-stream temporal joins, and materialized views. Connectors include Kafka, NATS, WebSocket, Postgres CDC, Apache Iceberg, and Delta Lake. Built on Apache Arrow and DataFusion
 
 ### Benchmark
 
