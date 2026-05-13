@@ -33,6 +33,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [ArkFlow](https://github.com/arkflow-rs/arkflow) [Rust] - High-performance Rust stream processing engine, providing powerful data stream processing capabilities, supporting multiple input/output sources and processors.
 - [Arroyo](https://github.com/ArroyoSystems/arroyo) [Rust] - a distributed stream processing engine. Supports SQL and Rust pipelines. Scales up to millions of events per second. Supports stateful operations like windows and joins, state checkpointing for fault-tolerance and recovery of pipelines. Uses the Timely Dataflow model.
 - [AthenaX](https://github.com/uber/AthenaX) [Java] - Uber's Stream Analytics Framework used in production
+- [beava](https://github.com/beava-dev/beava) [Rust/Python] - Single-binary feature server. Push events over HTTP or TCP, query fresh per-entity counters and aggregates inline, no broker in between. For fraud, recommendations, LLM guardrails, and in-product analytics.
 - [Bytewax](https://github.com/bytewax/bytewax) [Python] - data parallel, distributed, stateful stream processing framework.
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex) [Rust/Python] - ETL framework to build fresh index for AI, with realtime incremental updates.
 - [Faust](https://github.com/robinhood/faust) [Python] - stream processing library, porting the ideas from Kafka Streams to Python
