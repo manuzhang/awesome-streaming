@@ -118,7 +118,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 - [Bruin](https://github.com/bruin-data/bruin) [Go] - End-to-end data pipeline tool combining ingestion from 50+ sources, SQL/Python transformations, and built-in data quality checks in a single CLI.
 - [camus](https://github.com/linkedin/camus) [Java] - Linkedin's Kafka -> HDFS pipeline.
 - [databus](https://github.com/linkedin/databus) [Java] - Linkedin's source-agnostic distributed change data capture system.
-- [faucet-stream](https://github.com/PawanSikawat/faucet-stream) [Rust] - Config-driven ETL, CDC, and streaming toolkit with pluggable source and sink connectors, run declaratively from YAML by a single binary or embedded as a Rust library.
+- [faucet-stream](https://github.com/PawanSikawat/faucet-stream) [Rust] - Config-driven data-movement platform for ETL, CDC, and streaming: pluggable source and sink connectors, run declaratively from YAML by a single binary or embedded as a Rust library.
 - [flume](https://github.com/apache/flume) [Java] - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 - [fluvio](https://github.com/infinyon/fluvio) [Rust/WASM] - Real-time programmable data streaming platform with in-line computation capabilities.
 - [ingestr](https://github.com/bruin-data/ingestr) [Python] - CLI tool to copy data between any source and destination with a single command. Supports 50+ connectors including databases, SaaS apps, and data warehouses.
