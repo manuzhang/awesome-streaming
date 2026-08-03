@@ -134,6 +134,7 @@ Mesos, designed for high performance data processing jobs that require flexibili
 ### Online Machine Learning 
 
 - [Apache Samoa](https://github.com/apache/incubator-samoa) [Java] - distributed streaming machine learning (ML) framework that contains a programing abstraction for distributed streaming ML algorithms.
+- [CapyMOA](https://github.com/adaptive-machine-learning/CapyMOA) [Python] - Efficient machine learning for data streams, covering classification, regression, clustering, anomaly detection, semi-supervised learning, online continual learning and drift detection.
 - [DataSketches](https://github.com/DataSketches/sketches-core) [Java] - sketches library from Yahoo!.
 - [Numalogic] (https://github.com/numaproj/numalogic) [Python] - Collection of ML models and libraries for real-time anomaly detection and forecasting on time series data. Built on Numaflow, a K8s native stream processing platform
 - [River](https://github.com/online-ml/river) [Python] - online machine learning library.
