@@ -1,0 +1,51 @@
+name: Project status
+
+on:
+  schedule:
+    # Mondays at 03:19 UTC.
+    - cron: "19 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: project-status
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Check project status
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Test the project status checker
+        run: node --test scripts/check-project-status.test.mjs
+
+      - name: Check GitHub project activity
+        id: project-status
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/check-project-status.mjs --output project-status-report.md
+
+      - name: Upload project status report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: project-status-report
+          path: project-status-report.md
+          if-no-files-found: error
+
+      - name: Fail when the README needs review
+        if: steps.project-status.outcome == 'failure'
+        run: exit 1
