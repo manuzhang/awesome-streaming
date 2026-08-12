@@ -5,6 +5,7 @@ import {
   findingsForProject,
   formatReport,
   inactivityCutoff,
+  parseArguments,
   parseGitHubProjects,
 } from "./check-project-status.mjs";
 
@@ -32,7 +33,7 @@ test("uses a calendar-based two-year inactivity cutoff", () => {
   );
 });
 
-test("flags inactive unbadged projects but preserves deliberate archived badges", () => {
+test("reports the configured cutoff for inactive unbadged projects", () => {
   const cutoff = new Date("2024-08-13T00:00:00Z");
   const status = {
     archived: false,
@@ -43,13 +44,13 @@ test("flags inactive unbadged projects but preserves deliberate archived badges"
     lastCommitDate: "2024-08-12T23:59:59Z",
   };
 
-  assert.match(
+  assert.equal(
     findingsForProject(
       { owner: "example", repo: "project", archivedBadge: false },
       status,
       cutoff,
     )[0],
-    /No default-branch activity/,
+    "No default-branch activity since 2024-08-13 (last commit 2024-08-12)",
   );
   assert.deepEqual(
     findingsForProject(
@@ -58,6 +59,18 @@ test("flags inactive unbadged projects but preserves deliberate archived badges"
       cutoff,
     ),
     [],
+  );
+});
+
+test("accepts only positive whole-year inactivity intervals", () => {
+  assert.equal(parseArguments(["--inactive-years", "1"]).inactiveYears, 1);
+  assert.throws(
+    () => parseArguments(["--inactive-years", "0.5"]),
+    /must be a positive integer/,
+  );
+  assert.throws(
+    () => parseArguments(["--inactive-years", "0"]),
+    /must be a positive integer/,
   );
 });
 

@@ -81,7 +81,7 @@ export function findingsForProject(project, status, cutoff) {
       findings.push("Could not determine the latest default-branch commit date");
     } else if (new Date(status.lastCommitDate) < cutoff) {
       findings.push(
-        `No default-branch activity for two years (last commit ${status.lastCommitDate.slice(0, 10)})`,
+        `No default-branch activity since ${cutoff.toISOString().slice(0, 10)} (last commit ${status.lastCommitDate.slice(0, 10)})`,
       );
     }
   }
@@ -239,7 +239,7 @@ async function mapWithConcurrency(items, concurrency, callback) {
   return results;
 }
 
-function parseArguments(argv) {
+export function parseArguments(argv) {
   const options = {
     readme: "README.md",
     output: null,
@@ -261,8 +261,8 @@ function parseArguments(argv) {
     }
   }
 
-  if (!Number.isFinite(options.inactiveYears) || options.inactiveYears <= 0) {
-    throw new Error("--inactive-years must be a positive number");
+  if (!Number.isInteger(options.inactiveYears) || options.inactiveYears <= 0) {
+    throw new Error("--inactive-years must be a positive integer");
   }
   return options;
 }
