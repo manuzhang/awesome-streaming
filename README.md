@@ -137,6 +137,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 ### Applications and Tools
 
 - [beava](https://github.com/beava-dev/beava) <sub>![Rust/Python][language-rust-python]</sub> - Single-binary feature server for querying fresh per-entity counters and aggregates without a message broker.
+- [cdclint](https://github.com/avison9/cdclint) <sub>![Go][language-go]</sub> - Linter for the contract between Postgres migrations, a Debezium connector and the sink schema, failing the pull request that would silently drop a CDC column.
 - [Eventum](https://github.com/eventum-generator/eventum) <sub>![Python/TypeScript][language-python-typescript]</sub> - Data generation platform for producing synthetic event streams.
 - [javactrl-kafka](https://github.com/javactrl/javactrl-kafka) <sub>![Java][language-java]</sub> - Code-first distributed workflow engine for microservice orchestration and business process automation.
 - [Nussknacker](https://github.com/TouK/nussknacker) <sub>![Scala][language-scala]</sub> - Visual tool for defining and running real-time decision algorithms.
