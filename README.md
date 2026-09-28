@@ -98,6 +98,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Monix](https://github.com/monix/monix) <sub>![Scala][language-scala]</sub> - High-performance Scala and Scala.js library for asynchronous and event-based programs.
 - [Numalogic](https://github.com/numaproj/numalogic) <sub>![Python][language-python]</sub> - Collection of machine learning models and tools for anomaly detection and forecasting on operational time-series data.
 - [Pulsar](https://github.com/quantmind/pulsar) <sub>![Archived][archived-badge]</sub> <sub>![Python][language-python]</sub> - Actor-based event-driven concurrency framework for Python.
+- [PySAD](https://github.com/selimfirat/pysad) <sub>![Python][language-python]</sub> - Python library for anomaly detection on streaming data, with online detectors, stream simulators, and evaluators.
 - [Quix Streams](https://github.com/quixio/quix-streams) <sub>![Python][language-python]</sub> - Python framework for real-time data engineering, analytics, and machine learning on Apache Kafka.
 - [River](https://github.com/online-ml/river) <sub>![Python][language-python]</sub> - Online machine learning library for Python.
 - [samza-luwak](https://github.com/romseygeek/samza-luwak) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Integration of Apache Samza with the Luwak stored-query engine for full-text stream search.
