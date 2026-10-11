@@ -149,7 +149,6 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Streamline](https://github.com/hortonworks/streamline) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Hortonworks visual stream analytics framework built around engines such as Apache Storm.
 - [Substation](https://github.com/brexhq/substation) <sub>![Go][language-go]</sub> - Toolkit for routing, normalizing, and enriching security event and audit logs.
 - [Turbine](https://github.com/Netflix/Turbine) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Netflix tool for aggregating Server-Sent Event JSON streams.
-- [Zilla](https://github.com/aklivity/zilla) <sub>![Java][language-java]</sub> - Multi-protocol gateway for connecting applications, APIs, agents, and devices to event streams.
 
 ### Managed and Closed Source
 
