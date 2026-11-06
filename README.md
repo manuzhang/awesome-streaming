@@ -88,6 +88,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Apache SAMOA](https://github.com/apache/incubator-samoa) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Retired distributed streaming machine learning framework.
 - [Apache StormCrawler](https://github.com/apache/stormcrawler) <sub>![Java][language-java]</sub> - Scalable web crawler SDK based on Apache Storm.
 - [CapyMOA](https://github.com/adaptive-machine-learning/CapyMOA) <sub>![Python/Java][language-python-java]</sub> - Machine learning library for data streams with a Python API and MOA backend.
+- [CardinalityEstimation](https://github.com/saguiitay/CardinalityEstimation) <sub>![C#][language-csharp]</sub> - HyperLogLog library for memory-efficient approximate distinct counting in data streams.
 - [coast](https://github.com/bkirwi/coast) <sub>![Archived][archived-badge]</sub> <sub>![Scala][language-scala]</sub> - DSL that builds exactly-once dataflow graphs on top of Apache Samza.
 - [Daggy](https://github.com/synacker/daggy) <sub>![C++][language-cpp]</sub> - Utility and developer library for aggregating and capturing data streams.
 - [DataSketches](https://github.com/apache/datasketches-java) <sub>![Java][language-java]</sub> - Apache library of stochastic streaming algorithms known as sketches.
