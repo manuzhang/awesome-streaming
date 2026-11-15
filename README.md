@@ -130,6 +130,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex) <sub>![Rust/Python][language-rust-python]</sub> - Incremental data transformation engine for continuously updated AI and agent workloads.
 - [Databus](https://github.com/linkedin/databus) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - LinkedIn source-agnostic distributed change data capture system.
 - [faucet-stream](https://github.com/faucet-hq/faucet-stream) <sub>![Rust][language-rust]</sub> - Config-driven platform and embeddable library for ETL, CDC, and streaming data movement.
+- [Filament](https://github.com/galaxy-io/filament) <sub>![Go][language-go]</sub> - Data replication engine that moves data between databases, SaaS APIs, streams and object storage with full and incremental sync.
 - [inGestr](https://github.com/bruin-data/ingestr) <sub>![Go/Python][language-go-python]</sub> - Command-line application and Python SDK for copying data between databases, SaaS applications, and data warehouses.
 - [mq-bridge](https://github.com/marcomq/mq-bridge) <sub>![Rust][language-rust]</sub> - Embeddable library and CLI for moving data between brokers, databases incl. CDC, object storage and HTTP, usable from Rust, Python and Node.js.
 - [OLake](https://github.com/datazip-inc/olake) <sub>![Go][language-go]</sub> - Replicates Postgres, MySQL, MongoDB, Oracle, SQL Server and Kafka into Apache Iceberg with CDC, full refresh and incremental sync.
