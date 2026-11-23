@@ -59,7 +59,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Onyx](https://github.com/onyx-platform/onyx) <sub>![Archived][archived-badge]</sub> <sub>![Clojure][language-clojure]</sub> - Distributed, masterless, fault-tolerant data processing platform.
 - [PipelineDB](https://github.com/pipelinedb/pipelinedb) <sub>![Archived][archived-badge]</sub> <sub>![C][language-c]</sub> - Unmaintained PostgreSQL extension for continuous SQL aggregation over time-series data.
 - [Proton](https://github.com/timeplus-io/proton) <sub>![C++][language-cpp]</sub> - Unified streaming and historical data analytics database powered by ClickHouse.
-- [Redpanda](https://github.com/redpanda-data/redpanda) <sub>![Archived][archived-badge]</sub> <sub>![C++][language-cpp]</sub> - Kafka API-compatible streaming data platform without ZooKeeper or a JVM.
+- [Redpanda](https://github.com/redpanda-data/redpanda) <sub>![Archived][archived-badge]</sub> <sub>![C++][language-cpp]</sub> - Kafka API-compatible streaming data platform without ZooKeeper or a JVM. Releases from 26.3.1 onward are closed source.
 - [rekuiper](https://github.com/Indus-Stack/rekuiper) <sub>![Rust][language-rust]</sub> - Single-binary streaming SQL engine for filtering, aggregating, and routing MQTT and industrial telemetry on edge gateways.
 - [RisingWave](https://github.com/risingwavelabs/risingwave) <sub>![Rust][language-rust]</sub> - PostgreSQL-compatible streaming database for event-driven applications, real-time ETL, and continuous analytics.
 - [S4](https://github.com/apache/incubator-retired-s4) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Retired distributed platform for processing continuous unbounded data streams.
