@@ -59,7 +59,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [Onyx](https://github.com/onyx-platform/onyx) <sub>![Archived][archived-badge]</sub> <sub>![Clojure][language-clojure]</sub> - Distributed, masterless, fault-tolerant data processing platform.
 - [PipelineDB](https://github.com/pipelinedb/pipelinedb) <sub>![Archived][archived-badge]</sub> <sub>![C][language-c]</sub> - Unmaintained PostgreSQL extension for continuous SQL aggregation over time-series data.
 - [Proton](https://github.com/timeplus-io/proton) <sub>![C++][language-cpp]</sub> - Unified streaming and historical data analytics database powered by ClickHouse.
-- [Redpanda](https://github.com/redpanda-data/redpanda) <sub>![C++][language-cpp]</sub> - Kafka API-compatible streaming data platform without ZooKeeper or a JVM.
+- [Redpanda](https://github.com/redpanda-data/redpanda) <sub>![Archived][archived-badge]</sub> <sub>![C++][language-cpp]</sub> - Kafka API-compatible streaming data platform without ZooKeeper or a JVM. Releases from 26.3.1 onward are closed source.
 - [rekuiper](https://github.com/Indus-Stack/rekuiper) <sub>![Rust][language-rust]</sub> - Single-binary streaming SQL engine for filtering, aggregating, and routing MQTT and industrial telemetry on edge gateways.
 - [RisingWave](https://github.com/risingwavelabs/risingwave) <sub>![Rust][language-rust]</sub> - PostgreSQL-compatible streaming database for event-driven applications, real-time ETL, and continuous analytics.
 - [S4](https://github.com/apache/incubator-retired-s4) <sub>![Archived][archived-badge]</sub> <sub>![Java][language-java]</sub> - Retired distributed platform for processing continuous unbounded data streams.
@@ -132,7 +132,7 @@ A curated list of awesome [streaming (stream processing)](http://radar.oreilly.c
 - [faucet-stream](https://github.com/faucet-hq/faucet-stream) <sub>![Rust][language-rust]</sub> - Config-driven platform and embeddable library for ETL, CDC, and streaming data movement.
 - [inGestr](https://github.com/bruin-data/ingestr) <sub>![Go/Python][language-go-python]</sub> - Command-line application and Python SDK for copying data between databases, SaaS applications, and data warehouses.
 - [mq-bridge](https://github.com/marcomq/mq-bridge) <sub>![Rust][language-rust]</sub> - Embeddable library and CLI for moving data between brokers, databases incl. CDC, object storage and HTTP, usable from Rust, Python and Node.js.
-- [OLake](https://github.com/datazip-inc/olake) <sub>![Go][language-go]</sub> - Replicates Postgres, MySQL, MongoDB, Oracle, SQL Server and Kafka into Apache Iceberg with CDC, full refresh and incremental sync.
+- [OLake](https://github.com/datazip-inc/olake-go) <sub>![Go][language-go]</sub> - Replicates Postgres, MySQL, MongoDB, Oracle, SQL Server and Kafka into Apache Iceberg with CDC, full refresh and incremental sync.
 - [Pathway](https://github.com/pathwaycom/pathway) <sub>![Python/Rust][language-python-rust]</sub> - Python ETL framework for stream processing, real-time analytics, and AI data pipelines.
 - [Redpanda Connect](https://github.com/redpanda-data/connect) <sub>![Go][language-go]</sub> - Declarative stream processor for moving, enriching, transforming, and filtering data between sources and sinks.
 - [RudderStack](https://github.com/rudderlabs/rudder-server) <sub>![Go][language-go]</sub> - Developer-focused customer data platform for event streaming and cloud-to-warehouse data pipelines.
